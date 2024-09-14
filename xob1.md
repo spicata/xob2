@@ -10,3 +10,7 @@ layout: default
 ## what happens when you change a colour
 
 ![changing colours](assets/changingcolours.png)
+
+## some specifications, by the way
+
+![the robot is 4.4m tall](assets/robotheight.png)
