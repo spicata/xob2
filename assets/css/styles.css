@@ -1,0 +1,139 @@
+:root {
+    --background-0: #ffffff;
+    --foreground-0: #000000;
+    --foreground-1: grey;
+    --emphasis-0: lightblue;
+    --emphasis-1: #819ec1;
+    ---border: #000000;
+}
+
+p {
+    margin: 0;
+}
+
+body {
+    font-family: monospace;
+    background-color: var(--background-0);
+    color: var(--foreground-0);
+    margin: auto;
+    font-size: 16px;
+    max-width: 700px;
+    line-height: 1.5;
+    padding: 1em;
+}
+
+.title_name {
+    margin-bottom: 0px;
+    text-align: center;
+}
+
+/* image style */
+
+img {
+    display: block;
+    max-width: 100%;
+    margin: auto;
+    image-rendering: pixelated;
+}
+
+.xobdyn {
+    border: 1px solid var(---border);
+    margin-bottom: 20px;
+    display: none;
+}
+
+.xobdyn:target {
+    display: block;
+}
+
+/* buttons */
+
+.buttons {
+    display: grid;
+    grid-template-areas: "a b";
+}
+
+.button {
+    display: grid;
+    grid-template-areas: "a b";
+    width: 325px;
+    background-color: var(--emphasis-0);
+    height: 50px;
+    cursor: pointer;
+    user-select: none;
+
+}
+
+.button_left {
+    grid-area: a;
+    margin-left: 25px;
+    border-radius: 10px 0 0 10px;
+    border-right: 3px solid var(--emphasis-1);
+}
+
+.button_right {
+    grid-area: b;
+    margin-right: 25px;
+    border-radius: 0 10px 10px 0;
+    border-left: 3px solid var(--emphasis-1);
+}
+
+.text_left {
+    grid-area: b;
+    width: 255px;
+    text-align: left;
+    margin: auto;
+    padding-left: 20px;
+}
+
+.icon_left {
+    grid-area: a;
+    padding: 17px;
+}
+
+.text_right {
+    grid-area: a;
+    width: 255px;
+    text-align: right;
+    margin: auto;
+    padding-right: 20px;
+}
+
+.icon_right {
+    grid-area: b;
+    padding: 17px;
+}
+
+@media (max-width: 750px) {
+    body {
+        width: 400px;
+    }
+
+    .button {
+        width: 175px;
+    }
+
+    .button_left {
+        margin-left: 25px;
+    }
+
+    .button_right {
+        margin-right: 25px;
+    }
+
+    .text_left,
+    .text_right {
+        display: none;
+    }
+
+    .icon_left,
+    .icon_right {
+        margin: auto 79.5px;
+        padding: 0;
+    }
+}
+
+.gray {
+    background-color: var(--foreground-1);
+    color: var(--foreground-1);
+}
