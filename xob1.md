@@ -1,5 +1,6 @@
 ---
 title: "xob redux: 1"
+layout: default
 ---
 
 ## introducing... honey!
