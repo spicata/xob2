@@ -14,3 +14,7 @@ layout: default
 ## some specifications, by the way
 
 ![the robot is 4.4m tall](assets/robotheight.png)
+
+## exams...
+
+![lit fucking sucks](assets/literature.png)
