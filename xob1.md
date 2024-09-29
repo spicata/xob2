@@ -34,3 +34,7 @@ layout: default
 ## iceskating
 
 ![oops](assets/iceskating.png)
+
+## gamer-rage
+
+![AAAAA](assets/gamerrage.png)
