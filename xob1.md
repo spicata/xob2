@@ -38,3 +38,11 @@ layout: default
 ## gamer-rage
 
 ![AAAAA](assets/gamerrage.png)
+
+## whips
+
+![dont give her one](assets/whip.png)
+
+## dont stop me now!
+
+![im having such a good time](assets/letmecook.png)
