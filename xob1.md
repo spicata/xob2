@@ -46,3 +46,11 @@ layout: default
 ## dont stop me now!
 
 ![im having such a good time](assets/letmecook.png)
+
+## preparing for exams
+
+![agony](assets/dust.png)
+
+## disintegrating emoji gif
+
+![she won't let me :(](assets/gambling3.png)
