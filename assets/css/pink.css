@@ -1,0 +1,25 @@
+html {
+    background-color: #910c62;
+    color: #fff2fc;
+}
+
+body {
+    font-family: "Azeret Mono", monospace;
+    background-color: #910c62;
+    color: #fff2fc;
+    margin: auto;
+    font-size: 16px;
+    max-width: 700px;
+    line-height: 1.5;
+    padding: 1em;
+}
+
+a {
+    color: #f39aff;
+}
+
+img {
+    display: block;
+    max-width: 100%;
+    margin: auto;
+}

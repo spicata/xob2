@@ -62,7 +62,3 @@ layout: default
 ## i hate exams still
 
 ![AAAA](assets/hate_this_hate_school.png)
-
-## pretty in pink (its pretty pink)
-
-![PIP](assets/xobprettypink.png)
